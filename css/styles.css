@@ -29,6 +29,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+h4 {
+  font-size: 48px;
+}
 
 .hero {
   background: var(--secondary-color);
@@ -125,6 +128,41 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 20px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin: 0 0 60px 0;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-link:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -132,6 +170,7 @@ nav li.active a {
   h2 {
     font-size: 44px;
   }
+
   .hero {
     padding: 80px 20px;
   }
