@@ -103,8 +103,14 @@ h3 {
 }
 .name {
   color: #b4a3a9;
-  margin-left: -1px;
+  margin-left: -10px;
   font-size: 20px;
+}
+.profil-p {
+  border-radius: 40%;
+  text-align: center;
+  max-width: 80%;
+  margin-left: 25px;
 }
 nav {
   padding: 20px 0;
@@ -121,11 +127,9 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
-nav li.active a {
+.nav-item a:hover {
   color: var(--branding-color);
 }
 
@@ -178,9 +182,6 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
-  }
-  .img-about {
-    max-width: 80%;
   }
   .name {
     display: none;
