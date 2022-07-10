@@ -168,6 +168,31 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.carousel {
+  width: 640px;
+  height: 570px;
+  display: block;
+  margin: 0 auto;
+  border: 5px double var(--branding-color);
+  padding: 10px;
+  background-color: rgba(245, 208, 188, 0.5);
+}
+.carousel-img {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.slider-button {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  margin-left: 10px;
+  font-size: 12px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
