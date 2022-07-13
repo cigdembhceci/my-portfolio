@@ -109,8 +109,8 @@
         <div class="col-sm-4">
           <img src="/images/avatar.png" class="img-fluid avatar" alt="avatar" />
         </div>
-        <div class="col-8">
-          <p>👋 Hi, I am</p>
+        <div class="col-8 starter">
+          <p class="hi">👋 Hi, I am</p>
           <h1>Cigdem Bahceci</h1>
           <h2 class="mb-5">Front-end developer based in New York, USA</h2>
           <div>
@@ -130,7 +130,7 @@
 
     <div
       id="bs-carousel"
-      class="carousel carousel-dark slide mb-5"
+      class="carousel carousel-dark slide mb-5 d-none d-sm-block"
       data-ride="carousel"
       data-interval="5000"
     >
@@ -225,6 +225,9 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <div class="d-block d-sm-none">
+      <h2>Check about my projects here</h2>
+    </div>
 
     <footer class="container">
       <div
@@ -275,6 +278,7 @@
       <p class="text-center mt-4">
         This project was coded by Cigdem B, and it is
         <a
+          class="text-muted"
           href="https://github.com/cigdembhceci/my-portfolio"
           target="_blank"
           title="Open-sourced portfolio project"
