@@ -84,16 +84,11 @@ h3 {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 12px 20px;
+  text-align: center;
+  margin: 0 auto;
 }
-.btn-branding-outline {
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  color: var(--branding-color);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
+
 .project-description {
   padding: 60px;
 }
@@ -103,7 +98,9 @@ h3 {
   opacity: 0.5;
 }
 .logoSide {
-  margin-left: -40px;
+  margin-top: 20px;
+  position: relative;
+  right: 30px;
 }
 .name {
   color: #b4a3a9;
@@ -117,11 +114,7 @@ h3 {
   margin-left: 25px;
 }
 nav {
-  padding: 20px 0;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
+  background: white;
 }
 nav li {
   display: inline;
@@ -136,25 +129,12 @@ nav a {
 .nav-item a:hover {
   color: var(--branding-color);
 }
-
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 20px;
-}
-footer .contact-box p {
-  margin: 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  margin: 0 0 60px 0;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
+  margin: 0 auto;
+  text-align: center;
 }
 
 footer .social-links a {
@@ -170,6 +150,9 @@ footer .social-links {
   background: var(--branding-color);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
 }
 
 footer .social-links a:hover {
@@ -235,5 +218,8 @@ footer .social-links a:hover {
   .hero .starter {
     margin: 20px auto;
     text-align: center;
+  }
+  footer .social-links a {
+    margin: 10px 15px;
   }
 }
