@@ -54,7 +54,7 @@ h3 {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 
 .content h1 {
@@ -87,6 +87,9 @@ h3 {
   padding: 12px 20px;
   text-align: center;
   margin: 0 auto;
+}
+.content .work-head {
+  font-size: 40px;
 }
 
 .project-description {
@@ -219,7 +222,18 @@ footer .social-links a:hover {
     margin: 20px auto;
     text-align: center;
   }
+
   footer .social-links a {
     margin: 10px 15px;
+  }
+}
+@media (max-width: 740px) {
+  .carousel {
+    height: 475px;
+  }
+}
+@media (max-width: 430px) {
+  .carousel {
+    height: 375px;
   }
 }
