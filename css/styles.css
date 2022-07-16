@@ -188,6 +188,24 @@ footer .social-links a:hover {
   margin-left: 10px;
   font-size: 12px;
 }
+.contact a {
+  color: var(--branding-color);
+}
+.resume {
+  margin-top: 15px;
+  margin-bottom: 15ch;
+}
+.resume-icon {
+  position: relative;
+  top: 25px;
+  right: 10px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+.resume-icon:hover {
+  color: var(--branding-color);
+}
 
 @media (max-width: 960px) {
   h1 {
