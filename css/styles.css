@@ -54,13 +54,10 @@ h3 {
 }
 
 .charcter {
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #704670 0%,
-    #410438 29%,
-    #ae0e44 67%,
-    #6a446585 100%
+  background: linear-gradient(
+    100.5deg,
+    rgb(148, 146, 236) 17.7%,
+    rgb(245, 194, 194) 76.1%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -70,6 +67,15 @@ h3 {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
+.landing-preview {
+  background-image: url(/images/corder-top-right.png),
+    url(/images/corner-top-left.png), url(/images/corner-bottom-left.png),
+    url(/images/corner-bottom-right.png);
+  background-position: top right, top left, bottom left, bottom right;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
 .content-container {
   padding: 30px 20px;
 }
@@ -129,7 +135,8 @@ h3 {
   border-radius: 40%;
   text-align: center;
   max-width: 80%;
-  margin-left: 25px;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 nav {
   background: white;
