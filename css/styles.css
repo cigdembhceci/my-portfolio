@@ -59,9 +59,7 @@ h3 {
     rgb(148, 146, 236) 17.7%,
     rgb(245, 194, 194) 76.1%
   );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 120% auto;
+
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -73,9 +71,9 @@ h3 {
     url(/images/corner-bottom-right.png);
   background-position: top right, top left, bottom left, bottom right;
   background-repeat: no-repeat;
-  padding: 10px;
+  padding: 7px;
+  max-width: 85%;
 }
-
 .content-container {
   padding: 30px 20px;
 }
@@ -135,7 +133,7 @@ h3 {
   border-radius: 40%;
   text-align: center;
   max-width: 80%;
-  margin-left: 60px;
+  margin-left: 40px;
   margin-top: 20px;
 }
 nav {
@@ -202,6 +200,19 @@ footer .social-links a:hover {
   margin-bottom: 80px;
   margin-top: 10px;
   padding: 0;
+}
+.skill-box {
+  border: 2px outset white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.skill-icon {
+  color: var(--branding-color);
+  margin: 5px;
+  font-size: 25px;
 }
 
 .slider-button {
@@ -270,6 +281,9 @@ footer .social-links a:hover {
 @media (max-width: 740px) {
   .carousel {
     height: 475px;
+  }
+  .landing-preview {
+    padding: 3px;
   }
 }
 @media (max-width: 430px) {
