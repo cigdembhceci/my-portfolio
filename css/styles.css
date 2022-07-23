@@ -53,7 +53,8 @@ h3 {
   font-size: 24px;
 }
 
-.charcter {
+.content .charcter {
+  font-size: 35px;
   background: linear-gradient(
     100.5deg,
     rgb(148, 146, 236) 17.7%,
@@ -212,9 +213,11 @@ footer .social-links a:hover {
 .skill-icon {
   color: var(--branding-color);
   margin: 5px;
-  font-size: 25px;
+  font-size: 30px;
 }
-
+.host {
+  margin-left: 5px;
+}
 .slider-button {
   background: var(--secondary-color);
   color: var(--branding-color);
@@ -285,9 +288,20 @@ footer .social-links a:hover {
   .landing-preview {
     padding: 3px;
   }
+  .skill-icon,
+  .host {
+    display: block;
+  }
 }
 @media (max-width: 430px) {
   .carousel {
     height: 375px;
+  }
+  .content .charcter {
+    font-size: 25px;
+  }
+  .skill-icon,
+  .host {
+    display: inline;
   }
 }
