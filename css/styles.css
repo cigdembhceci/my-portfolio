@@ -32,7 +32,11 @@ p {
 h3 {
   font-size: 48px;
 }
-
+.back-about {
+  background-image: url(/images/line.png), url(/images/ball.png);
+  background-position: top right, center right;
+  background-repeat: no-repeat;
+}
 .hero {
   background: var(--secondary-color);
   border-radius: 50px;
@@ -276,6 +280,9 @@ footer .social-links a:hover {
 
   footer .social-links a {
     margin: 10px 15px;
+  }
+  .back-about {
+    background-position: center, center right;
   }
 }
 @media (max-width: 740px) {
